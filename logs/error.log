@@ -1,0 +1,96 @@
+2017/12/01 16:56:08 [error] 9616#2032: *1 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:54: attempt to concatenate local 'v' (a table value)
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:56:08 [error] 9616#2032: *3 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:54: attempt to concatenate local 'v' (a table value)
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:56:13 [error] 9616#2032: *5 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:54: attempt to concatenate local 'v' (a table value)
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:56:13 [error] 9616#2032: *7 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:54: attempt to concatenate local 'v' (a table value)
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:57:28 [error] 6588#3988: *1 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:52: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lualib/merlin\core.lua:52: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:57:30 [error] 6588#3988: *3 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:52: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lualib/merlin\core.lua:52: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:57:30 [error] 6588#3988: *5 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:52: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lualib/merlin\core.lua:52: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:58:59 [error] 1852#6652: *1 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:54: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:58:59 [error] 1852#6652: *3 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:54: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:59:04 [error] 1852#6652: *5 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:54: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:59:04 [error] 1852#6652: *7 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:54: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:59:35 [error] 1852#6652: *10 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:54: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 16:59:43 [error] 7036#9664: *1 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:54: attempt to call field 'tostring' (a nil value)
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 17:08:17 [error] 9856#912: *1 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:58: attempt to call field 'ERR' (a number value)
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 17:19:48 [error] 4548#5944: *1 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:59: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 17:19:48 [error] 4548#5944: *3 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:59: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 17:19:53 [error] 4548#5944: *5 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:59: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 17:19:54 [error] 4548#5944: *7 lua entry thread aborted: runtime error: ./lualib/merlin\core.lua:59: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	./lualib/merlin\core.lua: in function 'query'
+	content_by_lua(nginx.conf:62):9: in function <content_by_lua(nginx.conf:62):1>, client: 127.0.0.1, server: localhost, request: "GET /test?a=1&b=32 HTTP/1.1", host: "localhost"
+2017/12/01 18:23:49 [error] 10116#9208: *9 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /app.js HTTP/1.1", upstream: "http://[::1]:8080/app.js", host: "localhost", referrer: "http://localhost/"
+2017/12/02 09:40:42 [error] 10116#9208: *25 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /app.js HTTP/1.1", upstream: "http://[::1]:8080/app.js", host: "localhost", referrer: "http://localhost/"
+2017/12/02 09:42:51 [error] 10116#9208: *106 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /app.js HTTP/1.1", upstream: "http://[::1]:8080/app.js", host: "localhost", referrer: "http://localhost/"
